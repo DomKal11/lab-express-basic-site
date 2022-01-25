@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align:center;
+}
+#menu{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+#menu a{
+    background-color:black;
+    color:white;
+    padding: 10px 50px 10px 50px;
+    margin:10px;
+    border-radius:20px;
+    border:1px solid gray;
+    text-decoration: none;
+}
+.active{
+    box-shadow: inset 0px 0px 10px white;
+}
+#content{
+    margin-top:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:flex-start;
+}
+h2{
+    text-align:left;
+    margin-left:10px;
+}
+#content article p{
+    margin-top:20px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align:left;
+    padding:10px;
+}
+#profile-pic{
+    width:400px;
+    border-radius:60px;
+    border:2px solid black;
+    box-shadow: 1px 1px 10px gray;
+}
+#works-img{
+    margin-left:10px;
+    width:395px;
+    border:2px solid black;
+    box-shadow: 1px 1px 10px gray;
+}
+.gallery-pic{
+    margin-left:10px;
+    width:300px;
+    height:175px;
+    border:2px solid black;
+    box-shadow: 1px 1px 10px gray;
+}
+.line{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
